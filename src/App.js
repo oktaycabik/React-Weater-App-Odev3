@@ -33,7 +33,7 @@ function App() {
     (async () => {
        setWeater(await getWeater(sel));
     })();
-  }, [setWeater,sel ]);
+  }, [setWeater,sel,getWeater]);
   return (
     <div>
       
